@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "gatsby-backroad-project",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "A Travelling Website Built with Gatsby",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -16,16 +16,10 @@
   "dependencies": {
     "gatsby": "^2.18.12",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-icons": "^3.8.0"
   },
   "devDependencies": {
     "prettier": "^1.19.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }
