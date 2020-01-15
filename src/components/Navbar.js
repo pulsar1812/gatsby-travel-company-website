@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link, useStaticQuery } from 'gatsby'
+import { Link } from 'gatsby'
 import { FaAlignRight } from 'react-icons/fa'
 
 import links from '../constants/links'
