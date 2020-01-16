@@ -4,6 +4,8 @@ import { Link } from 'gatsby'
 import Layout from '../components/Layout'
 import SimpleHero from '../components/SimpleHero'
 import Banner from '../components/Banner'
+import About from '../components/About'
+import Services from '../components/Services'
 
 const HomePage = () => {
   return (
@@ -19,6 +21,8 @@ const HomePage = () => {
           </Link>
         </Banner>
       </SimpleHero>
+      <About />
+      <Services />
     </Layout>
   )
 }
