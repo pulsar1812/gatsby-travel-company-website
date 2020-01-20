@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Title from './Title'
+import Title from '../Title'
 import styles from './contact.module.css'
 
 const Contact = () => {
@@ -9,7 +9,7 @@ const Contact = () => {
       <Title title="Contact" subtitle="Us" />
       <div className={styles.center}>
         <form
-          action="https://formspree.io/cluster000@gmail.com"
+          action="https://formspree.io/abc@gmail.com"
           method="POST"
           className={styles.form}
         >

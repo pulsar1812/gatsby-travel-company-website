@@ -3,7 +3,7 @@ import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import StyledHero from '../components/StyledHero'
-import Contact from '../components/Contact'
+import Contact from '../components/contact/Contact'
 
 const ContactPage = ({ data }) => {
   return (
