@@ -14,7 +14,7 @@ const HomePage = ({ data }) => {
     <Layout>
       <StyledHero home="true" img={data.defaultBcg.childImageSharp.fluid}>
         <Banner
-          title="Continue exploring"
+          title="Explore Endless Possibilities"
           info="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore
           dolorem minus nobis itaque, aperiam aspernatur neque."
         >
