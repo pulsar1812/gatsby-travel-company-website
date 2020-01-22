@@ -9,7 +9,7 @@ module.exports = {
       'Explore awesome worldwide tours. Enjoy your holidays in unique ways.',
     author: 'John Doe',
     twitterUsername: '@john_doe',
-    image: 'defaultBcg.jpeg',
+    image: '/defaultBcg.jpeg',
     siteUrl: 'https://gatsby-travel-company-website.netlify.com',
   },
   plugins: [
