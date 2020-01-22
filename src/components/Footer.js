@@ -33,7 +33,7 @@ const Footer = () => {
       </div>
       <div className={styles.copyright}>
         Copyright &copy; Travel Corp. {new Date().getFullYear()} All Rights
-        Reversed{' '}
+        Reserved{' '}
       </div>
     </footer>
   )

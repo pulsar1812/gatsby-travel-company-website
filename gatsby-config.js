@@ -4,14 +4,13 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: 'BackRoads',
+    title: 'Travel Corp.',
     description:
       'Explore awesome worldwide tours. Enjoy your holidays in unique ways.',
     author: 'John Doe',
-    data: {
-      name: 'John',
-      age: 25,
-    },
+    twitterUsername: '@john_doe',
+    image: 'defaultBcg.jpeg',
+    siteUrl: 'https://gatsby-travel-company-website.netlify.com',
   },
   plugins: [
     `gatsby-plugin-sass`,
@@ -33,5 +32,6 @@ module.exports = {
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       },
     },
+    `gatsby-plugin-react-helmet`,
   ],
 }

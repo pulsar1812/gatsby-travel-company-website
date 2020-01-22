@@ -8,10 +8,12 @@ import Banner from '../components/Banner'
 import About from '../components/home/About'
 import Services from '../components/home/Services'
 import FeaturedTours from '../components/home/FeaturedTours'
+import SEO from '../components/SEO'
 
 const HomePage = ({ data }) => {
   return (
     <Layout>
+      <SEO title="Home" />
       <StyledHero home="true" img={data.defaultBcg.childImageSharp.fluid}>
         <Banner
           title="Explore Endless Possibilities"
